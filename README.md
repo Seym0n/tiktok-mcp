@@ -52,7 +52,7 @@ For this TikTok MCP, you need
 
 1. Clone the repository
 ```
-git clone
+git clone https://github.com/Seym0n/tiktok-mcp.git
 ```
 
 2. Install dependencies
