@@ -1,0 +1,12 @@
+build
+node_modules
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+yarn.lock
+.DS_Store
+.idea
+.vscode
+coverage
+dist
+*.log

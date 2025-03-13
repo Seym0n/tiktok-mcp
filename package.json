@@ -1,0 +1,28 @@
+{
+    "name": "tiktok-mcp",
+    "version": "0.0.1",
+    "description": "MCP server for TikTok",
+    "license": "MIT",
+    "author": "Simon",
+    "homepage": "https://tikneuron.com",
+    "type": "module",
+    "bin": {
+      "tiktok-mcp-server": "build/index.js"
+    },
+    "files": [
+      "build"
+    ],
+    "scripts": {
+      "build": "tsc && shx chmod +x build/*.js",
+      "prepare": "npm run build",
+      "watch": "tsc --watch"
+    },
+    "dependencies": {
+      "@modelcontextprotocol/sdk": "1.6.1"
+    },
+    "devDependencies": {
+      "@types/node": "^22",
+      "shx": "^0.3.4",
+      "typescript": "^5.6.2"
+    }
+  }
