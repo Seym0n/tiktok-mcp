@@ -83,7 +83,7 @@ Add the following entry to `mcpServers`:
 }
 ```
 
-and replace path with the `path` to TikTok MCP and `XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX`
+and replace path with the `path` to TikTok MCP and `XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX` with TIkNeuron API Key
 
 so that `mcpServers` will look like this:
 
