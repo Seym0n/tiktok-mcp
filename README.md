@@ -2,6 +2,9 @@
 
 ![image (12)](https://github.com/user-attachments/assets/006f9983-b9dd-447c-87c6-ee27a414fd4c)
 
+<a href="https://glama.ai/mcp/servers/@Seym0n/tiktok-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@Seym0n/tiktok-mcp/badge" alt="TikTok MCP server" />
+</a>
 
 The TikTok MCP integrates TikTok access into Claude AI and other apps via TikNeuron. This TikTok MCP allows you to
 - analyze TikTok videos to determine virality factors
