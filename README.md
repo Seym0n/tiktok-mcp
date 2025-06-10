@@ -10,14 +10,6 @@ The TikTok MCP integrates TikTok access into Claude AI and other apps via TikNeu
 
 ## Available Tools
 
-### tiktok_available_subtitles
-
-**Description:**  
-Looks up the available subtitle, i.e., content for a TikTok video. This is used for looking up if there is any content (subtitle) available to a TikTok video. Returns the available subtitle for the video which can be in different languages and different formats like Automatic Speech Recognition, Machine Translation or Creator Captions and different languages.
-
-**Input Parameters:**
-- `tiktok_url` (required): TikTok video URL, e.g., https://www.tiktok.com/@username/video/1234567890 or https://vm.tiktok.com/1234567890
-
 ### tiktok_get_subtitle
 
 **Description:**  
@@ -32,14 +24,26 @@ Get the subtitle (content) for a TikTok video url. This is used for getting the 
 **Description:**  
 Get the details of a TikTok post. Returns the details of the video like:
 - Description
+- Video ID
 - Creator username
 - Hashtags
 - Number of likes, shares, comments, views and bookmarks
 - Date of creation
 - Duration of the video
+- Available subtitles with language and source information
 
 **Input Parameters:**
-- `tiktok_url` (required): TikTok video URL, e.g., https://www.tiktok.com/@username/video/1234567890 or https://vm.tiktok.com/1234567890
+- `tiktok_url` (required): TikTok video URL, e.g., https://www.tiktok.com/@username/video/1234567890 or https://vm.tiktok.com/1234567890, or just the video ID like 7409731702890827041
+
+### tiktok_search
+
+**Description:**  
+Search for TikTok videos based on a query. Returns a list of videos matching the search criteria with their details including description, video ID, creator, hashtags, engagement metrics, date of creation, duration and available subtitles, plus pagination metadata for continuing the search.
+
+**Input Parameters:**
+- `query` (required): Search query for TikTok videos, e.g., 'funny cats', 'dance', 'cooking tutorial'
+- `cursor` (optional): Pagination cursor for getting more results
+- `search_uid` (optional): Search session identifier for pagination
 
 ## Requirements
 
