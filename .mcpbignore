@@ -1,0 +1,9 @@
+node_modules/.cache
+.git
+.github
+.gitignore
+*.ts
+!*.d.ts
+tsconfig.json
+.DS_Store
+*.log

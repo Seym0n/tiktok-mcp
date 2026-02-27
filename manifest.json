@@ -1,0 +1,35 @@
+{
+  "manifest_version": "0.3",
+  "name": "tiktok-mcp",
+  "display_name": "TikTok MCP Server",
+  "version": "0.0.1",
+  "description": "MCP server for TikTok - get subtitles, post details, and more from TikTok videos",
+  "author": {
+    "name": "Simon"
+  },
+  "homepage": "https://tikneuron.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Seym0n/tiktok-mcp"
+  },
+  "server": {
+    "type": "node",
+    "entry_point": "build/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/build/index.js"],
+      "env": {
+        "TIKNEURON_MCP_API_KEY": "${user_config.api_key}"
+      }
+    }
+  },
+  "user_config": {
+    "api_key": {
+      "type": "string",
+      "title": "TikNeuron API Key",
+      "description": "Your TikNeuron API key for authentication",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}

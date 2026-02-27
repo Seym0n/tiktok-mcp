@@ -15,7 +15,8 @@
     "scripts": {
       "build": "tsc && shx chmod +x build/*.js",
       "prepare": "npm run build",
-      "watch": "tsc --watch"
+      "watch": "tsc --watch",
+      "mcpb:pack": "mcpb pack"
     },
     "dependencies": {
       "@modelcontextprotocol/sdk": "1.10.1"
