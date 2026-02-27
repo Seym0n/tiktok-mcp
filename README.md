@@ -45,6 +45,16 @@ Search for TikTok videos based on a query. Returns a list of videos matching the
 - `cursor` (optional): Pagination cursor for getting more results
 - `search_uid` (optional): Search session identifier for pagination
 
+## Install via MCPB (Easiest)
+
+The easiest way to install the TikTok MCP in Claude Desktop is via the MCPB bundle — no cloning or building required.
+
+1. Download the latest `tiktok-mcp.mcpb` from the [Releases](https://github.com/Seym0n/tiktok-mcp/releases) page
+2. Open the `.mcpb` file — Claude Desktop will show an installation dialog
+3. Enter your TikNeuron API Key when prompted
+
+That's it. Claude Desktop handles the rest automatically.
+
 ## Requirements
 
 For this TikTok MCP, you need
