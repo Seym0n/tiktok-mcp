@@ -62,6 +62,10 @@ For this TikTok MCP, you need
 - Git (https://git-scm.com/)
 - TikNeuron Account and MCP API Key (https://tikneuron.com/tools/tiktok-mcp)
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/seym0n-tiktok-mcp).
+
 ## Setup
 
 1. Clone the repository
